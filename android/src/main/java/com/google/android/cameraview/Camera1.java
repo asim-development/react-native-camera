@@ -370,6 +370,7 @@ class Camera1 extends CameraViewImpl implements MediaRecorder.OnInfoListener,
             if(mCamera != null){
                 mCamera.stopPreview();
             }
+            releaseCamera();
         }
     }
 
